@@ -11,7 +11,7 @@ def handle_c(c_socket):
     c_socket.close()
 
 s = socket.socket()
-s.bind(("",4444 ))
+s.bind(("",8888 ))
 s.listen(5)
 
 while True:
